@@ -4,7 +4,7 @@ from sklearn.metrics import r2_score
 from math import sqrt
 import numpy as np
 
-#define weighted_mean_absolute_percentage_error and other eveluation metrics定义平均绝对百分比误差和评价函数
+#define weighted_mean_absolute_percentage_error and other eveluation metrics
 def weighted_mean_absolute_percentage_error(Y_true, Y_pred):
 	#The shape of the two matrixs are all n*276 where 276 is the station numbers 两个矩阵都是n行276列
 	total_sum=np.sum(Y_true)
