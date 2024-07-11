@@ -6,7 +6,7 @@ import numpy as np
 
 #define weighted_mean_absolute_percentage_error and other eveluation metrics
 def weighted_mean_absolute_percentage_error(Y_true, Y_pred):
-	#The shape of the two matrixs are all n*276 where 276 is the station numbers 两个矩阵都是n行276列
+	#The shape of the two matrixs are all n*276 where 276 is the station numbers 
 	total_sum=np.sum(Y_true)
 	average=[]
 	for i in range(len(Y_true)):
