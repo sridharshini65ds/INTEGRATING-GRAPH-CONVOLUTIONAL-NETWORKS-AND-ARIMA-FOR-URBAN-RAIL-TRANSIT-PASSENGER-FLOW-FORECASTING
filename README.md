@@ -1,4 +1,4 @@
-****GCN-ARIMA HYBRID MODEL****
+                                                                                             ****GCN-ARIMA HYBRID MODEL****
 
 This code integrates Graph Convolutional Networks (GCN) and AutoRegressive Integrated Moving Average (ARIMA) to leverage the strengths of both spatial and temporal modeling techniques. 
 The GCN component effectively captures spatial dependencies by processing the graph structure of the rail network, while the ARIMA component models the temporal aspects of passenger flow data. 
@@ -11,6 +11,7 @@ By sequentially combining these models, the hybrid approach aims to provide a co
  The model's performance is evaluated using key metrics such as Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and Weighted Mean Absolute Percentage Error (MAPE), demonstrating significant improvements over traditional and standalone methods.
 
 ****PROPOSED WORK****
+
 **Preprocessing:** Time series analysis will be applied to decompose the data into trend, seasonality, and residual components. Additionally, a graph representation of the rail network will be constructed to facilitate GCN modeling.
  **Model Development:**
  
